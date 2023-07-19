@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/* hero background image */
+.bgimage {
+    height:100vh;
+    background: url('images/IMG_8199.JPG');
+    background-size:cover;
+    position:relative;
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+    font-family: Poppins, sans-serif;
+    color: #ffffff;
+}
+.hero_desc {
+    font-size: 2rem;
+    color: #969595;
+}
+
+
+.hero-text {
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: Poppins, sans-serif;
+    margin-left: 65px;
+}
+/* about section image css */
+.imageAboutPage {
+    width: 100%;
+}
+/* services section css */
+.servicesText.card {
+    height: 335px;
+    cursor: pointer;
+    font-family: Poppins, sans-serif;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+    font-family: Poppins, sans-serif;
+}
+.card-title {
+    text-align: center;
+    font-family: Poppins, sans-serif;
+}
+.card:hover .servicesIcon {
+    color: rgb(46, 104, 217);
+}
+.servicesText:hover {
+    border: 1px solid rgb(46, 104, 217);
+}
+/* display background color black on navbar scroll */
+.navbarScroll.navbarDark {
+    background-color: rgb(46, 104, 217);
+    transition: .4s;
+}
+/* social media icons styling */
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+    color: rgb(139, 220, 255);
+    transition: .2s;
+}
+.fab {
+    color: #000000;
+}
+/* footer styling */
+#footer {
+    background-color: #ffffff;
+    text-align: center;
+}
+/* spacing on all sections */
+#about, #services, #portfolio, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+#contact {
+    padding-bottom: 4rem;
+}
+.container{
+    font-family: Poppins, sans-serif;
+}
+.navbar-brand{
+    color: #54516d;
+}
+.contact-info{
+    color: #000000;
+    text-align: left;
+    padding-left: 2cm;
+}
+.topserv{
+    font-family: Poppins,sans-serif;
+    text-align: center;
+    font-size: large;
+}
+.servdesc{
+    font-family: Poppins,sans-serif;
+    font-weight: bold;
+}
+/* Solid border */
+hr.solid {
+    border-top: 3px solid #bbb;
+  }
+
